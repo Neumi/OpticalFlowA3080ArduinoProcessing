@@ -13,6 +13,6 @@ Then you can try the Processing code. The only problem might occour at the seria
 
 If you like this project feel free to buy me a coffee! https://ko-fi.com/Buttons/Buy/1669O9K1BCOA
 
-Best regards : ),
+Best regards :),
 
 Neumi
