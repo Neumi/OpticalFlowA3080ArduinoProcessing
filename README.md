@@ -11,6 +11,8 @@ At first, get the Arduino code on your Arduino running. Then read the serial mon
 
 Then you can try the Processing code. The only problem might occour at the serial port at line 21. Try different ports.
 
+If you like this project feel free to buy me a coffee! https://ko-fi.com/Buttons/Buy/1669O9K1BCOA
+
 Best regards :),
 
 Neumi
