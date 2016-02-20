@@ -10,6 +10,12 @@
 
 // these pins may be different on different boards
 // this is for the uno
+
+#include <SoftwareSerial.h>
+
+SoftwareSerial mySerial(6, 7); // RX, TX
+
+
 #define PIN_SS        10
 #define PIN_MISO      12
 #define PIN_MOSI      11
@@ -185,19 +191,22 @@ void setup()
   SPI.setDataMode(SPI_MODE3);
   SPI.setBitOrder(MSBFIRST);
   
-  Serial.begin(38400);
+  Serial.begin(9600);
 
   if(mousecam_init()==-1)
   {
     Serial.println("Mouse cam failed to init");
     while(1);
-  }  
+  }
 }
 
 char asciiart(int k)
 {
   static char foo[] = "WX86*3I>!;~:,`. ";
   return foo[k>>4];
+
+
+  Serial.begin(9600);
 }
 
 byte frame[ADNS3080_PIXELS_X * ADNS3080_PIXELS_Y];
