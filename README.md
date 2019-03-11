@@ -9,7 +9,7 @@ Keep in mind that the position of the pins on the A3080 drawing do NOT meet the 
 
 At first, get the Arduino code on your Arduino running. Then read the serial monitor on 38400 baud, to see if you get vector data in a stream.
 
-Then you can try the Processing code. The only problem might occour at the serial port at line 21. Try different ports.
+Then you can try the Processing code. The only problem might occour at the serial port at line 21. Try different ports and Baud rates.
 
 If you like this project feel free to buy me a coffee! https://ko-fi.com/Buttons/Buy/1669O9K1BCOA
 
